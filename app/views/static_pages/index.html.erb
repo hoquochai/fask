@@ -68,6 +68,7 @@
               <h2><%= t ".top_users" %></h2>
               <hr class="widget-separator no-margin">
               <%= render partial: "static_pages/top_users", collection: @topUsers, as: :user %>
+              <%= link_to "View all", users_path, class: "btn btn-default btn-xs" %>
             </div>
             <!-- widget -->
             <div class="widget">

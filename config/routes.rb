@@ -14,4 +14,5 @@ Rails.application.routes.draw do
   resources :answers, only: :create
   resources :reactions, only: :create
   resources :comments, only: :create
+  resources :users
 end

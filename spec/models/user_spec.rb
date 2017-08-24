@@ -10,6 +10,6 @@ RSpec.describe User, type: :model do
     it{is_expected.to have_many :answers}
 
     it{expect have_and_belong_to_many :work_spaces}
-    it{is_expected.to have_and_belong_to_many :topics}
+    it{expect have_and_belong_to_many :topics}
   end
 end
